@@ -1,0 +1,435 @@
+
+@import url(//db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF+Pro+Text);
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Roboto:wght@500&display=swap');
+
+  /* .barda {
+    display: inline-block;
+    background: #4285f4;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    -webkit-transition: all ease-in-out 300ms;
+    transition: all ease-in-out 300ms;
+  } */
+
+.romkalar{
+  position: relative;
+  bottom: 100px;
+  top: -30px;
+}
+
+.romkalar1{
+  
+  align-self: flex-end;
+  padding-bottom: 10px;
+  display: table-cell;
+  width: 50px;
+  height: 200px;
+  padding: 10px;
+  vertical-align: middle;
+  position: relative;
+  right: -15px;
+
+  }
+
+.phd1{
+
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    max-width: none;
+    height: auto;
+    max-height: none;
+    border-radius: 20px;
+    align-self: flex-end;
+    box-shadow: 0 4px 15px 0 rgba(5, 5, 5, 0.5), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.day{
+  text-decoration: rgb(1, 8, 1);
+  color: #54595F;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  
+
+}
+.sana{
+  font-size: 14px;
+  margin: 0px 0px 20px;
+  font-family: 'play',sans-serif;
+  color: #ff7c11;
+  font-weight:bold;
+  line-height: 1.5;
+}
+.last{
+  font-family: 'play',sans-serif;
+  font-size: 14px;
+  color: #7a7a7a;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+.news{
+  color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-align: center;
+    color: #003576;
+    font-family: "Open Sans Hebrew",Sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    position: relative;
+    bottom: 20px;
+}
+.romkalar2{
+  
+  align-self: flex-end;
+  display: table-cell;
+  width: 50px;
+  height: 200px;
+  padding: 10px;
+  vertical-align: middle;
+  position: relative;
+  right: -26px;
+  text-decoration: none;
+      
+
+  }
+.ak47{
+  display: block;
+    width: 300px;
+    max-width: none;
+    height: auto;
+    max-height: none;
+    border-radius: 20px;
+    align-self: flex-end;
+    bottom: -18px;
+    position: relative;
+    box-shadow: 0 4px 15px 0 rgba(5, 5, 5, 0.5), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.day1{
+  color: #54595F;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  top: 42px;
+  font-weight: bolder;
+  
+}
+
+.sana1{
+  font-size: 14px;
+  margin: 0px 0px 20px;
+  font-family: 'play',sans-serif;
+  color: #ff7c11;
+  font-weight:bold;
+  line-height: 1.5;
+  position: relative;
+  top: 30px;
+}
+.last1{
+  font-family: 'play',sans-serif;
+  font-size: 14px;
+  color: #7a7a7a;
+  font-weight: bolder;
+  line-height: 1.5;
+  position: relative;
+  top: 30px;
+}
+
+.romkalar3{
+  
+  align-self: flex-end;
+  padding-bottom: 10px;
+  display: table-cell;
+  width: 50px;
+  height: 200px;
+  padding: 10px;
+  vertical-align: middle;
+  position: relative;
+  right: -40px;
+  
+
+  }
+
+.phd2{
+
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    max-width: none;
+    height: auto;
+    max-height: none;
+    border-radius: 20px;
+    align-self: flex-end;
+    box-shadow: 0 4px 15px 0 rgba(5, 5, 5, 0.5), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.day2{
+  text-decoration: rgb(1, 8, 1);
+  color: #54595F;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  
+  
+
+}
+.sana2{
+  font-size: 14px;
+  margin: 0px 0px 20px;
+  font-family: 'play',sans-serif;
+  color: #ff7c11;
+  font-weight:bold;
+  line-height: 1.5;
+}
+.last2{
+  font-family: 'play',sans-serif;
+  font-size: 14px;
+  color: #7a7a7a;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+.romkalar4{
+  
+  align-self: flex-end;
+  padding-bottom: 10px;
+  display: table-cell;
+  width: 50px;
+  height: 200px;
+  padding: 10px;
+  vertical-align: middle;
+  position: relative;
+  right: -55px;
+  top: 45px;
+  
+
+  }
+
+.phd3{
+
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    max-width: none;
+    height: 300px;
+    max-height: none;
+    border-radius: 20px;
+    align-self: flex-end;
+    box-shadow: 0 4px 15px 0 rgba(5, 5, 5, 0.5), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.day3{
+  text-decoration: rgb(1, 8, 1);
+  color: #54595F;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  position: relative;
+  
+  
+  
+
+}
+.sana3{
+  font-size: 14px;
+  margin: 0px 0px 20px;
+  font-family: 'play',sans-serif;
+  color: #ff7c11;
+  font-weight:bold;
+  line-height: 1.5;
+}
+.last3{
+  font-family: 'play',sans-serif;
+  font-size: 14px;
+  color: #7a7a7a;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+.dropbtn {
+  background-color: #ffffff;
+  color: #17a2b8;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.navbar-nav{
+  display: contents;
+  
+}
+
+.links {
+	background-color: #123;
+	background-image: linear-gradient(to bottom, #0003, transparent);
+	border-bottom: 1px solid #0003;
+	box-shadow: 0 0 32px #0003;
+	font-size: 2em;
+	font-weight: 300;
+}
+.links > a {
+	color: #9ab;
+	padding: .75em;
+	text-align: center;
+	text-decoration: none;
+	transition: all .5s;
+  font-size: 20px;
+}
+.links > a:hover {
+	background: #ffffff06;
+	color: #adf;
+}
+.links > .line {
+	background: #68a;
+	height: 1px;
+	pointer-events: none;
+}
+
+/* The Magic */
+#header {
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.links {
+	display: grid;
+	grid-template-columns: repeat(var(--items), 1fr);
+	position: relative;
+}
+.links > .line {
+	opacity: 0;
+	transition: all .5s;
+	position: absolute;
+	bottom: 0;
+	left: var(--left, calc(100% / var(--items) * (var(--index) - 1)));
+	width: var(--width, calc(100% / var(--items)));
+	--index: 0;
+}
+.links > a:hover ~ .line {
+	opacity: 1;
+}
+
+.links > a:nth-of-type(1):hover ~ .line { --index: 1; }
+.links > a:nth-of-type(2):hover ~ .line { --index: 2; }
+.links > a:nth-of-type(3):hover ~ .line { --index: 3; }
+.links > a:nth-of-type(4):hover ~ .line { --index: 4; }
+.links > a:nth-of-type(5):hover ~ .line { --index: 5; }
+.links > a:nth-of-type(6):hover ~ .line { --index: 6; }
+.links > a:nth-of-type(7):hover ~ .line { --index: 7; }
+.links > a:nth-of-type(8):hover ~ .line { --index: 8; }
+.links > a:nth-of-type(9):hover ~ .line { --index: 9; }
+.links > a:nth-of-type(10):hover ~ .line { --index: 10; }
+.links > a:last-of-type:hover ~ .line { --index: var(--items); }
+
+.pasga{
+  position: relative;
+  top: 50px;
+}
+.login-container {
+  color: rgb(1, 8, 1);
+  }
+  
+  .forgot-pswd {
+  color: #123;
+  margin-left: 80px;
+  margin-top: -30px;
+  }
+  
+  .login {
+  margin-left: 310px;
+  }
+  
+  .red{
+  color: rgb(10, 4, 4);
+  }
+  
+  .login-container-text{
+  color:rgb(31, 4, 4);
+  }
+  
+  .sing-up{
+  color:#123;
+  margin-left: 120px;
+  margin-top: -21px;
+  }
+
+
+/* h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+} */
+
+.bg-steel {
+ background-image: url(../static/rasm/fon.png);
+ background-repeat: no-repeat;
+ background-color: #ffff;
+  
+}
+.navbar-nav{
+  font-family: "SF Pro Text",sans-serif;
+}
+.logoga{
+  font-family: "SF Pro Text",sans-serif;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #cbd5db;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
