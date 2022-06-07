@@ -1,12 +1,12 @@
-{% extends "layout.html" %}
+{% extends "layout_post.html" %}
 {% block content %}
     {% for post in posts.items %}
-        <article class="media content-section">
-          <img class="rounded-circle article-img" src="{{ url_for('static', filename='profile_pics/' + post.author.image_file) }}">
-          <img class="" src="{{ url_for('static', filename='post_pics/' + post.image) }}">
-          <div class="media-body">
+        <article class="gallery-item">
+          <img class="" src="{{ url_for('static', filename='post_pics/' + post.author.image_file) }}">
+          <img class="gallery-image" src="{{ url_for('static', filename='post_pics/' + post.image) }}">
+          <div class="">
             <div class="article-metadata">
-              <a class="mr-2" href="{{ url_for('user_posts', username=post.author.username) }}">{{ post.author.username }}</a>
+              <a class="" href="{{ url_for('user_posts', username=post.author.username) }}">{{ post.author.username }}</a>
               <small class="text-muted">{{ post.date_posted.strftime('%Y-%m-%d') }}</small>
               <small class="text-muted">{{ post.image }}</small>
             </div>
@@ -14,6 +14,7 @@
             <p class="article-content">{{ post.content }}</p>
           </div>
         </article>
+      
     {% endfor %}
     {% for page_num in posts.iter_pages(left_edge=1, right_edge=1, left_current=1, right_current=2) %}
       {% if page_num %}

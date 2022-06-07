@@ -7,6 +7,7 @@ from flask_mail import Mail, Message
 from flask_admin import Admin
 from flask_admin.contrib.sqla import ModelView
 from os import path
+from flask_socketio import SocketIO
 
 
 
@@ -24,7 +25,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
 
 
 db = SQLAlchemy(app)
-
+socketio = SocketIO()
 
 
 bcrypt = Bcrypt(app)
@@ -44,6 +45,7 @@ app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USERNAME'] = os.environ.get('EMAIL_USER')
 app.config['MAIL_PASSWORD'] = os.environ.get('EMAIL_PASS')
 mail = Mail(app)
+socketio.init_app(app, async_mode='eventlet')
 
 
 from elturino import routes
