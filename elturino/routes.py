@@ -335,7 +335,7 @@ def message():
 def message_to(to):
     if current_user.is_authenticated:
         exists = User.query.filter_by(username=to).first()
-        if exists:  
+        if exists:
             l1 = Messages.query.filter_by(to=current_user.username).all()
             l2 = Messages.query.filter_by(by=current_user.username).all()
             d = []

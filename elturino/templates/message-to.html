@@ -7,16 +7,14 @@
 
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Play&family=Roboto:wght@100;500&display=swap');
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
         }
 
-        html,
-        body {
-            height: 100%;
-        }
+    
 
         html {
             font-size: 58.5%;
@@ -35,7 +33,7 @@
             display: grid;
             grid-template-columns: repeat(12, 1fr);
             grid-template-rows: 12.8rem 1fr;
-            background: url('../static/4002676.jpg');
+            /* background: url('../static/4002676.jpg'); */
             background-size: cover;
         }
 
@@ -169,8 +167,8 @@
         .chat-window {
             display: flex;
             flex-direction: column;
-            padding: 10rem 10rem 6rem 10rem;
-            height: 62rem;
+            padding: 5rem 1rem 2rem 3rem;
+            height: 54rem;
             overflow: scroll;
             overflow-x: hidden;
         }
@@ -199,23 +197,33 @@
         .sender {
             background-color: #d1f8b3;
             align-self: flex-end;
+            word-break: break-word;
+            line-height: 1.3125;
+            width: 260.5px;
         }
 
         .receiver {
             background-color: white;
             /* align-self: flex-end; */
             align-items: flex-start;
+            float: left;
+            width: 265px;
+            word-break: break-word;
         }
 
         .sender-message,
         .receiver-message {
-            font-size: 1.4rem;
+            font-size: 16px;
             margin-right: 3rem;
+            font-family: 'Roboto',sans-serif;
+
         }
 
         .message-time {
             color: gray;
             font-size: 1.08rem;
+            float: right;
+            padding: 5px;
         }
 
         input[type="range"]:focus {
